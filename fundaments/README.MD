@@ -34,7 +34,7 @@ Contenido:
 
 
 <!-- 
-para Tobon:
+para tobon:
 
 plantilla de canva (cada que hagas una infografia vas a tener que duplicar una página de esta plantilla y modificar el contenido, pero el diseño se mantiene igual. Hay 2 hojas en el canva, una para cuando el código no genera gráficos y otra para cuando sí los genera, así que asegúrate de usar la hoja correcta según el caso):
 https://www.canva.com/design/DAHNJ9kNmaQ/yx3mYM0RWbBSWX9nY7bsuw/edit
