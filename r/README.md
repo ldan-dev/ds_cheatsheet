@@ -53,3 +53,116 @@ Contenido:
 38. Guardar Gráficos: Cómo usar ggsave() para guardar tus visualizaciones en diferentes formatos de imagen. (Explicar cómo usar ggsave() para guardar gráficos en diferentes formatos de imagen, y la importancia de llamar a esta función después de crear el gráfico para asegurarse de que se guarde correctamente, con ejemplos de código para hacerlo usando un dataset predefinido como mtcars o iris)
 39. Facetado: Cómo usar facet_wrap() o facet_grid() para crear múltiples gráficos basados en categorías. (Explicar cómo usar facet_wrap() o facet_grid() para crear gráficos faceteados basados en categorías, con ejemplos de código para hacerlo usando un dataset predefinido como mtcars o iris)
 40. Gráficos Interactivos: Cómo usar plotly para convertir tus gráficos de ggplot2 en visualizaciones interactivas. (Explicar cómo usar plotly para convertir gráficos de ggplot2 en visualizaciones interactivas, con ejemplos de código para hacerlo usando un dataset predefinido como mtcars o iris)
+
+
+<!-- 
+
+
+
+Para Gabriel:
+
+Diseño en Canva:
+Cada que hagas una infografía, vas a duplicar una página de la plantilla y modificar el texto. Tienes 2 hojas:
+
+1. Una para cuando el tema es pura teoría/código (ej. explicar qué es la media o leer un CSV).
+2. Otra para cuando el código genera una gráfica (usando ggplot2). Ahí debes pegar la imagen de la gráfica que te genere el código.
+Asegúrate de usar la hoja correcta:
+https://canva.link/pnoog8nxn29dib8
+
+Nombres de tus archivos:
+Tus códigos deben guardarse con estos nombres exactos para que el repositorio quede perfecto:
+
+1. 1_tipos_variables.R
+2. 2_medidas_tendencia_central.R
+3. 3_varianza_muestral.R
+4. 4_desviacion_estandar.R
+5. 5_covarianza.R
+6. 6_cuartiles_iqr.R
+7. 7_deteccion_outliers.R
+8. 8_correlacion_pearson.R
+9. 9_filosofia_tidyverse.R
+10. 10_lectura_datos_readcsv.R
+11. 11_seleccion_filtrado.R
+12. 12_mutacion_datos.R
+13. 13_agrupacion_resumen.R
+14. 14_limpieza_nulos.R
+15. 15_reestructuracion_tablas.R
+16. 16_regresion_lineal_simple.R
+17. 17_regresion_lineal_multiple.R
+18. 18_regresion_logistica.R
+19. 19_anova.R
+20. 20_prueba_t_student.R
+21. 21_gramatica_graficos.R
+22. 22_ggplot_dispersion.R
+23. 23_ggplot_barras.R
+24. 24_ggplot_lineas.R
+25. 25_ggplot_boxplot.R
+26. 26_ggplot_pastel.R
+27. 27_ggplot_histograma.R
+28. 28_ggplot_correlacion.R
+29. 29_ggplot_series_temporales.R
+30. 30_ggplot_mapa_calor.R
+31. 31_ggplot_contorno.R
+32. 32_grafico_superficie_3d.R
+33. 33_ggplot_pastel_alternativo.R
+34. 34_ggplot_violin.R
+35. 35_ggplot_pareto.R
+36. 36_grafico_radar.R
+37. 37_personalizacion_avanzada.R
+38. 38_guardar_graficos_ggsave.R
+39. 39_facetado.R
+40. 40_graficos_interactivos.R
+
+Cómo generar tu contenido:
+Es muy sencillo. Copia TODO el bloque de texto que está aquí abajo (desde <prompt> hasta </prompt>) y pégalo en ChatGPT, Claude o Gemini. Lo único que tienes que cambiar es el texto que dice [PEGAR_AQUI_EL_TEMA] por las instrucciones del tema que te toca hacer en ese momento.
+RECUERDA CAMBIAR "PEGAR_AQUI_EL_TEMA" por el tema específico que te toca, usando las especificaciones que te di para cada tema (la primer lista de los 40 temas con sus instrucciones).
+
+
+
+<prompt>
+  <role>
+    Act as a Senior Data Scientist and R Programming Expert. You specialize in teaching Statistics, Tidyverse, and ggplot2 with extreme clarity and highly compact code.
+  </role>
+
+  <ctx>
+    You are generating educational content for university data science students. The output is for an Instagram infographic (requires brevity) and a GitHub repository.
+  </ctx>
+
+  <rules>
+    <r1>STRICT: NO EMOJIS in any part of the output (text or code). Zero emojis.</r1>
+    <r2>STRICT: No ASCII art, no "------". Code must be 100% clean and copy-paste ready for an .R file.</r2>
+    <r3>CODE_LIMIT: The R code snippet MUST NOT exceed 15 lines. It must be extremely compact. Use native datasets like mtcars or iris so no external downloads are needed.</r3>
+    <r4>IMG_TEXT_RULE: If the topic involves creating a chart (ggplot2), DO NOT provide an explanation for the image (just output "N/A - Lleva gráfico"). ONLY if there is NO visual/plot involved (e.g., explaining variance, reading CSV), provide a core explanation of MAX 30 words.</r4>
+    <r5>IG_CAPTION_LIMIT: The Instagram post caption MUST be exactly 1 or 2 concise paragraphs summarizing the concept. Use LaTeX formatting ($$) if a statistical formula is required in the explanation.</r5>
+    <r6>CTA: At the end of the Instagram caption, exactly before the hashtags, you MUST include this exact call-to-action: "Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet"</r6>
+    <r7>PLOTS_SAVE: If the topic involves creating a chart, the code MUST include ggsave('grafico.png') at the end so the user can save the image.</r7>
+    <r8>OUTPUT_FORMAT: Provide your final response in clear, plain Markdown text (NOT XML) so the user can easily copy and paste it into their files.</r8>
+  </rules>
+
+  <out_fmt>
+    Output your response STRICTLY following this markdown template:
+
+    ### TEXTO PARA LA IMAGEN
+    [Leave empty or write "N/A - Lleva gráfico" if a plot is generated. Otherwise, write a maximum of 30 words.]
+
+    ### TEXTO PARA LA PUBLICACION
+    [Max 2 paragraphs] Highly condensed explanation and direct answer to the specific topic. Include statistical formulas if requested.
+
+    Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+    #rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+    ### CODIGO
+    R
+    [Raw R code, max 15 lines of actual code]
+    
+  </out_fmt>
+
+  <input>
+    <topic>[PEGAR_AQUI_EL_TEMA]</topic>
+  </input>
+</prompt>
+
+
+
+ -->

@@ -60,7 +60,7 @@ Aquí tienes tu plan de trabajo para las infografías masivas de Pandas y Matplo
 
 Diseño en Canva:
 Cada que hagas una infografía, vas a tener que duplicar una página de la plantilla y modificar el contenido. Tienes 2 hojas: una para cuando el código NO genera gráficos (ej. explicar qué es un DataFrame o limpiar nulos) y otra para cuando SÍ hay un gráfico (usando .plot() o Matplotlib). Asegúrate de usar la hoja correcta y pegar la imagen de tu gráfico generado:
-[Enlace a tu plantilla de Canva]
+https://canva.link/ibsl5f4vbs9wecd
 
 Nomenclatura del Repositorio:
 Tus archivos deben llamarse exactamente así para mantener el orden de las 40 entregas en GitHub:

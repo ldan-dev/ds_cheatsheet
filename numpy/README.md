@@ -44,7 +44,7 @@ Aquí tienes tu plan de trabajo para las infografías de Python y NumPy.
 
 Diseño en Canva:
 Cada que hagas una infografía, vas a tener que duplicar una página de la plantilla y modificar el contenido, manteniendo el diseño. Recuerda que hay 2 hojas: una para cuando el código NO genera gráficos/visuales, y otra para cuando SÍ hay representación visual (como explicar el parámetro axis o mostrar distribuciones). Usa la hoja correcta según tu tema:
-https://www.canva.com/design/DAHNOxRgZtU/eJ4SYkxfwPXLz82tPJO3Ow/edit
+https://canva.link/kkosh6d0xvx20oc
 
 Nomenclatura del Repositorio:
 Tus archivos de código deben llamarse exactamente así para mantener el orden en el GitHub (dentro de la carpeta numpy, en la que esta este README):

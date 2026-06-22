@@ -39,7 +39,7 @@ Aquí tienes tu plan de trabajo para las infografías de Fundamentos de C.
 
 Diseño en Canva:
 Cada que hagas una infografía, vas a tener que duplicar una página de esta plantilla y modificar el contenido, pero manteniendo el diseño. Hay 2 hojas: una para cuando el código NO genera gráficos/visuales, y otra para cuando SÍ hay representación visual (como en los algoritmos de ordenamiento). Asegúrate de usar la hoja correcta
-enlace: https://www.canva.com/design/DAHNJ9kNmaQ/yx3mYM0RWbBSWX9nY7bsuw/edit
+https://canva.link/w5l8f26avvcj8u1
 
 Nomenclatura del Repositorio:
 Tus archivos de código deben llamarse exactamente así para mantener el orden en el GitHub:
