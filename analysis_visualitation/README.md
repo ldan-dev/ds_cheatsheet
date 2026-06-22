@@ -51,3 +51,118 @@ Contenido:
 39. Gráfico de Pareto: ¿Cómo hacer un gráfico de Pareto con Matplotlib? (Explicar cómo usar plt.bar() para crear un gráfico de Pareto, con ejemplos de personalización básica.)
 40. Gráfico de Radar: ¿Cómo hacer un gráfico de radar con Matplotlib? (Explicar cómo usar plt.plot() en coordenadas polares para crear un gráfico de radar, con ejemplos de personalización básica.)
 
+
+<!-- 
+
+Para Marco:
+
+Aquí tienes tu plan de trabajo para las infografías masivas de Pandas y Matplotlib.
+
+Diseño en Canva:
+Cada que hagas una infografía, vas a tener que duplicar una página de la plantilla y modificar el contenido. Tienes 2 hojas: una para cuando el código NO genera gráficos (ej. explicar qué es un DataFrame o limpiar nulos) y otra para cuando SÍ hay un gráfico (usando .plot() o Matplotlib). Asegúrate de usar la hoja correcta y pegar la imagen de tu gráfico generado:
+[Enlace a tu plantilla de Canva]
+
+Nomenclatura del Repositorio:
+Tus archivos deben llamarse exactamente así para mantener el orden de las 40 entregas en GitHub:
+
+1. 1_serie_vs_dataframe.py
+2. 2_creacion_dataframe.py
+3. 3_leer_exportar_archivos.py
+4. 4_exploracion_head_info.py
+5. 5_seleccion_loc_iloc.py
+6. 6_filtrado_booleano.py
+7. 7_manejo_nulos.py
+8. 8_eliminar_duplicados.py
+9. 9_estadisticas_describe.py
+10. 10_limpieza_texto_str.py
+11. 11_groupby_agregacion.py
+12. 12_pandas_plot_linea.py
+13. 13_pandas_plot_barras.py
+14. 14_pandas_plot_pastel.py
+15. 15_pandas_plot_histograma.py
+16. 16_pandas_plot_dispersion.py
+17. 17_pandas_plot_boxplot.py
+18. 18_pivot_tables.py
+19. 19_merge_join.py
+20. 20_reshape_melt.py
+21. 21_figure_vs_axes.py
+22. 22_personalizacion_plots.py
+23. 23_grid_limites_ejes.py
+24. 24_subplots.py
+25. 25_guardar_savefig.py
+26. 26_plt_linea.py
+27. 27_plt_barras.py
+28. 28_plt_pastel.py
+29. 29_plt_histograma.py
+30. 30_plt_dispersion.py
+31. 31_plt_boxplot.py
+32. 32_plt_correlacion.py
+33. 33_plt_series_temporales.py
+34. 34_plt_mapa_calor.py
+35. 35_plt_contorno.py
+36. 36_plt_superficie_3d.py
+37. 37_plt_tarta_parametros.py
+38. 38_plt_violin.py
+39. 39_plt_pareto.py
+40. 40_plt_radar.py
+
+Cómo generar el contenido:
+Copia y pega el siguiente prompt (desde <prompt> hasta </prompt>) en tu IA favorita. Solo cambia la etiqueta <topic> al final con el tema exacto que vas a generar.
+RECUERDA CAMBIAR "INSERTA_AQUI_EL_TEMA_Y_TUS_INSTRUCCIONES_ESPECIFICAS" por el tema específico que te toca, usando las especificaciones que te di para cada tema.
+
+
+<prompt>
+  <role>
+    Act as a Senior Data Scientist and Data Visualization Expert. You specialize in teaching Pandas and Matplotlib with extreme clarity, clean data wrangling, and highly compact code.
+  </role>
+
+  <ctx>
+    You are generating educational content for university data science students. The output is for an Instagram infographic (requires extreme brevity and large fonts) and a GitHub repository.
+  </ctx>
+
+  <rules>
+    <r1>STRICT: NO EMOJIS in any part of the output (text or code). Zero emojis.</r1>
+    <r2>STRICT: No ASCII art, no "------", and no decorative characters in the code. Code must be 100% clean and copy-paste ready for a .py file.</r2>
+    <r3>CODE_LIMIT: The Python code snippet MUST NOT exceed 15 lines (excluding essential brief comments). It must be compact and efficient.</r3>
+    <r4>IMG_TEXT_RULE: If the code generates a plot or chart, DO NOT provide an explanation for the image (just output "N/A - Lleva gráfico"). ONLY if there is NO visual/plot involved (e.g., explaining DataFrame vs Series, handling NaNs), provide a core explanation of MAX 30 words.</r4>
+    <r5>IG_CAPTION_LIMIT: The Instagram post caption MUST be exactly 1 or 2 concise paragraphs summarizing the concept. Do not write long essays.</r5>
+    <r6>CTA: At the end of the Instagram caption, exactly before the hashtags, you MUST include this exact call-to-action: "Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet"</r6>
+    <r7>DATASETS: Use arrays, small dictionaries, or standard datasets (Iris, Penguins) to keep the code short and reproducible.</r7>
+    <r8>PLOTS_SAVE: If the topic involves creating a chart, the code MUST include plt.savefig('output.png') at the end so the user can see the generated image on their local machine.</r8>
+    <r9>MOCK_FILES: If the topic is about reading/writing CSV or Excel files, provide a tiny mock text representation of the file data.</r9>
+    <r10>OUTPUT_FORMAT: Provide your final response in clear, plain Markdown text (NOT XML) so the user can easily copy and paste it into their files.</r10>
+  </rules>
+
+  <out_fmt>
+    Output your response STRICTLY following this markdown template:
+
+    ### TEXTO PARA LA IMAGEN
+    [Leave empty or write "N/A - Lleva gráfico" if a plot is generated. Otherwise, write a maximum of 30 words.]
+
+    ### TEXTO PARA LA PUBLICACION
+    [Max 2 paragraphs] Highly condensed explanation and direct answer to the specific topic.
+
+    Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+    #python #pandas #matplotlib #datascience #dataviz #programming #UG #DICIS #acm
+
+    ### CODIGO
+    python
+    [Raw Python code, max 15 lines of actual code]
+    
+
+    ### ARCHIVOS MOCK
+    text
+    [Mock file content, or "N/A" if not applicable]
+    
+  </out_fmt>
+
+  <input>
+    <lang>Python (Pandas y Matplotlib)</lang>
+    <topic>[INSERTA_AQUI_EL_TEMA_Y_TUS_INSTRUCCIONES_ESPECIFICAS]</topic>
+  </input>
+</prompt>
+
+
+
+ -->

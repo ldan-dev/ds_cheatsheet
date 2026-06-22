@@ -101,9 +101,6 @@ RECUERDA CAMBIAR "INSERTA_AQUI_EL_TEMA_Y_TUS_INSTRUCCIONES_ESPECIFICAS" por el t
   <out_fmt>
     Output your response STRICTLY following this markdown template:
 
-    ### NOMBRE DEL ARCHIVO
-    [Escribe el nombre del archivo .c sugerido, ej: 1_tipos_datos.c]
-
     ### TEXTO PARA LA IMAGEN
     [Leave empty or write "N/A - Lleva gráfico" if a visual/algorithm representation is involved. Otherwise, write a maximum of 30 words.]
 

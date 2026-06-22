@@ -37,7 +37,6 @@ Este módulo cubre los fundamentos de Python y la biblioteca numpy, esenciales p
 
 
 <!-- 
-https://www.canva.com/design/DAHNOxRgZtU/eJ4SYkxfwPXLz82tPJO3Ow/edit
 
 Para Julio:
 
@@ -45,7 +44,7 @@ Aquí tienes tu plan de trabajo para las infografías de Python y NumPy.
 
 Diseño en Canva:
 Cada que hagas una infografía, vas a tener que duplicar una página de la plantilla y modificar el contenido, manteniendo el diseño. Recuerda que hay 2 hojas: una para cuando el código NO genera gráficos/visuales, y otra para cuando SÍ hay representación visual (como explicar el parámetro axis o mostrar distribuciones). Usa la hoja correcta según tu tema:
-[Enlace a tu plantilla de Canva]
+https://www.canva.com/design/DAHNOxRgZtU/eJ4SYkxfwPXLz82tPJO3Ow/edit
 
 Nomenclatura del Repositorio:
 Tus archivos de código deben llamarse exactamente así para mantener el orden en el GitHub (dentro de la carpeta numpy, en la que esta este README):
@@ -104,9 +103,6 @@ RECUERDA CAMBIAR "INSERTA_AQUI_EL_TEMA_Y_TUS_INSTRUCCIONES_ESPECIFICAS" por el t
 
   <out_fmt>
     Output your response STRICTLY following this markdown template:
-
-    ### NOMBRE DEL ARCHIVO
-    [Escribe el nombre del archivo .py sugerido, ej: 15_intro_numpy.py]
 
     ### TEXTO PARA LA IMAGEN
     [Leave empty or write "N/A - Lleva gráfico" if a visual/algorithm representation is involved. Otherwise, write a maximum of 30 words.]
