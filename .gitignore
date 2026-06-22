@@ -2,6 +2,8 @@
 *.d
 
 .ignore
+.ignor
+
 
 # Object files
 *.o

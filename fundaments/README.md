@@ -128,11 +128,5 @@ RECUERDA CAMBIAR "INSERTA_AQUI_EL_TEMA_Y_TUS_INSTRUCCIONES_ESPECIFICAS" por el t
   </input>
 </prompt>
 
-ESTO YA NO LO VAS A COPIAR, SOLO RECUERDA CAMBIAR: INSERTA_AQUI_EL_TEMA_Y_TUS_INSTRUCCIONES_ESPECIFICAS por el tema específico que quieras abordar en tu publicación. Por ejemplo, si quieres hablar sobre "Punteros en C", el input quedaría así:
-
-    <input>
-      <lang>Lenguaje C</lang>
-      <topic>Punteros en C</topic>
-    </input>
 
  -->
