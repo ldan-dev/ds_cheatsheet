@@ -1,0 +1,7 @@
+Python maneja tipos como int, float, str, bool y None. Con NumPy también existen tipos especializados como np.int64 y np.float64, optimizados para trabajar con arreglos numéricos.
+
+La función type() permite identificar el tipo de una variable, mientras que np.array() crea arreglos NumPy con tipos numéricos eficientes.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm
