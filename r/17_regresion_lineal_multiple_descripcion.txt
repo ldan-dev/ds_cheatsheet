@@ -1,0 +1,17 @@
+### TEXTO PARA LA IMAGEN
+N/A - No lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+Regresión lineal múltiple extiende el modelo a varias variables predictoras. Ajusta con `lm(y ~ x1 + x2 + ...)` y evalúa $R^2$ para la bondad de ajuste.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+df <- mtcars
+model <- lm(mpg ~ hp + wt + cyl, data = df)
+sm <- summary(model)
+print(sm$coefficients)
+cat(sprintf("R-squared=%.4f\n", sm$r.squared))

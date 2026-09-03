@@ -1,0 +1,18 @@
+### TEXTO PARA LA IMAGEN
+N/A - Lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+`geom_contour()` dibuja líneas de nivel para representar una superficie; útil para mostrar topografías o densidades en 2D.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(ggplot2)
+vol <- as.data.frame(as.table(volcano))
+colnames(vol) <- c('x','y','z')
+p <- ggplot(vol, aes(x=as.numeric(x), y=as.numeric(y), z=z)) + geom_contour(aes(z=z)) + labs(x='X', y='Y')
+print(p)
+ggsave('grafico.png', plot = p)

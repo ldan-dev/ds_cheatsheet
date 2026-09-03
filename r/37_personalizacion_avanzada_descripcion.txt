@@ -1,0 +1,16 @@
+### TEXTO PARA LA IMAGEN
+N/A - Lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+Personaliza temas, leyendas, colores y etiquetas con `theme()` y funciones de `labs()` para mejorar la comunicación visual.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(ggplot2)
+p <- ggplot(mtcars, aes(x=hp, y=mpg, color=factor(cyl))) + geom_point() + theme_minimal() + theme(legend.position='bottom') + labs(title='Personalización')
+print(p)
+ggsave('grafico.png', plot = p)

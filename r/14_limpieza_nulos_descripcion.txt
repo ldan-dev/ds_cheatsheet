@@ -1,0 +1,19 @@
+### TEXTO PARA LA IMAGEN
+Eliminar o imputar NAs con `drop_na()` y `replace_na()`.
+
+### TEXTO PARA LA PUBLICACION
+Para manejo de NAs usa `drop_na()` para eliminar filas incompletas o `replace_na()` para imputar valores. Escoge la estrategia según el análisis y la cantidad de datos faltantes.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(tidyr)
+df <- mtcars
+df2 <- df
+df2[1,1] <- NA
+df_drop <- drop_na(df2)
+df_fill <- replace_na(df2, list(mpg = mean(df$mpg, na.rm=TRUE)))
+print(nrow(df2)); print(nrow(df_drop)); print(head(df_fill))

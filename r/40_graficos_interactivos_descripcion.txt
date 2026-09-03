@@ -1,0 +1,19 @@
+### TEXTO PARA LA IMAGEN
+N/A - Lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+Convierte tus gráficos a interactivos con `plotly::ggplotly()` para explorar series, valores y detalles al pasar el cursor. Guarda versiones HTML para compartir.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(ggplot2)
+library(plotly)
+p <- ggplot(mtcars, aes(x=hp, y=mpg, color=factor(cyl))) + geom_point()
+pp <- ggplotly(p)
+htmlwidgets::saveWidget(pp, 'grafico.html')
+ggsave('grafico.png', plot = p)
+print('Interactivo guardado: grafico.html; estático: grafico.png')

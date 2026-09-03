@@ -1,0 +1,16 @@
+### TEXTO PARA LA IMAGEN
+N/A - Lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+Usa `geom_histogram()` para visualizar la distribución de una variable numérica; ajusta `bins` para controlar resolución.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(ggplot2)
+p <- ggplot(mtcars, aes(x=mpg)) + geom_histogram(bins=10, fill='darkgreen', color='white') + labs(x='MPG')
+print(p)
+ggsave('grafico.png', plot = p)

@@ -1,0 +1,6 @@
+library(ggplot2)
+M <- cor(mtcars)
+df <- as.data.frame(as.table(M))
+p <- ggplot(df, aes(Var1, Var2, fill=Freq)) + geom_tile() + scale_fill_gradient2() + labs(x='', y='')
+print(p)
+ggsave('grafico.png', plot = p)

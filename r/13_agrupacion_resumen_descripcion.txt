@@ -1,0 +1,16 @@
+### TEXTO PARA LA IMAGEN
+`group_by()` + `summarise()` obtiene estadísticas por grupo de forma concisa.
+
+### TEXTO PARA LA PUBLICACION
+Combina `group_by()` con `summarise()` para calcular promedios, conteos o cualquier agregación por categoría. Es la forma estándar de resumir información por grupos en tidyverse.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(dplyr)
+df <- mtcars
+res <- df %>% group_by(cyl) %>% summarise(mean_mpg = mean(mpg), count = n())
+print(res)

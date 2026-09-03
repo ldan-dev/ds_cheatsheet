@@ -1,0 +1,19 @@
+### TEXTO PARA LA IMAGEN
+Detecta outliers con el método de Tukey usando IQR y límites 1.5×IQR.
+
+### TEXTO PARA LA PUBLICACION
+Usa el método de Tukey: $$L_{inf}=Q_1-1.5\times IQR,\quad L_{sup}=Q_3+1.5\times IQR$$. Cualquier valor fuera de esos límites es considerado atípico.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+x <- c(10,12,11,9,200,13,8)
+q <- quantile(x, probs=c(0.25,0.75))
+IQR_val <- q[2]-q[1]
+lower <- q[1] - 1.5*IQR_val
+upper <- q[2] + 1.5*IQR_val
+outliers <- x[x < lower | x > upper]
+cat(sprintf("Límites: %.2f - %.2f\nOutliers: %s\n", lower, upper, paste(outliers, collapse=",")))

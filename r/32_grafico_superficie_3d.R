@@ -1,0 +1,6 @@
+library(ggplot2)
+M <- as.data.frame(as.table(volcano))
+colnames(M) <- c('x','y','z')
+p <- ggplot(M, aes(x=as.numeric(x), y=as.numeric(y), fill=z)) + geom_tile() + labs(x='X', y='Y')
+print(p)
+ggsave('grafico.png', plot = p)

@@ -1,0 +1,6 @@
+x <- c(2, 3, 5, 7, 11)
+media <- mean(x)
+mediana <- median(x)
+moda <- as.numeric(names(sort(table(x), decreasing=TRUE)[1]))
+cat(sprintf("Media=%.2f\nMediana=%s\nModa=%s\n", media, mediana, moda))
+print(c(media=media, mediana=mediana, moda=moda))

@@ -1,0 +1,18 @@
+### TEXTO PARA LA IMAGEN
+Coeficiente de correlación de Pearson: dirección y fuerza lineal.
+
+### TEXTO PARA LA PUBLICACION
+El coeficiente de Pearson se calcula como $$r=\frac{\mathrm{Cov}(X,Y)}{s_X s_Y}$$ y mide la asociación lineal. En R usa `cor()` para obtener $r$ directamente.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+x <- c(1,2,3,4,5)
+y <- c(2,3,4,5,6)
+cov_xy <- cov(x,y)
+corr <- cov_xy/(sd(x)*sd(y))
+corr_r <- cor(x,y)
+cat(sprintf("r (manual)=%.4f\ncor()=%.4f\n", corr, corr_r))

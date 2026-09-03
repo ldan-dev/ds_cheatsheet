@@ -1,0 +1,17 @@
+### TEXTO PARA LA IMAGEN
+N/A - Lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+`geom_line()` junto a una variable temporal permite seguir la evolución de una métrica a lo largo del tiempo. Usa datos con columna fecha.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(ggplot2)
+data(economics, package='ggplot2')
+p <- ggplot(economics, aes(x=date, y=unemploy)) + geom_line(color='navy') + labs(y='Unemployed')
+print(p)
+ggsave('grafico.png', plot = p)

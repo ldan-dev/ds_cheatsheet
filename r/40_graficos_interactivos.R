@@ -1,0 +1,7 @@
+library(ggplot2)
+library(plotly)
+p <- ggplot(mtcars, aes(x=hp, y=mpg, color=factor(cyl))) + geom_point()
+pp <- ggplotly(p)
+htmlwidgets::saveWidget(pp, 'grafico.html')
+ggsave('grafico.png', plot = p)
+print('Interactivo guardado: grafico.html; estático: grafico.png')

@@ -1,0 +1,19 @@
+### TEXTO PARA LA IMAGEN
+N/A - No lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+Regresión logística modela la probabilidad en clasificación binaria: $$p=\frac{1}{1+e^{-(\beta_0+\beta_1 x)}}$$. En R usa `glm(..., family=binomial)`.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+df <- mtcars
+df$am <- factor(df$am)
+model <- glm(am ~ hp + wt, data = df, family = binomial)
+sm <- summary(model)
+print(sm$coefficients)
+probs <- predict(model, type = "response")
+print(head(probs))

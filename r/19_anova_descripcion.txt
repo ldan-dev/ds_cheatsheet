@@ -1,0 +1,16 @@
+### TEXTO PARA LA IMAGEN
+ANOVA: comparar medias entre más de dos grupos.
+
+### TEXTO PARA LA PUBLICACION
+ANOVA evalúa si hay diferencias significativas en medias entre grupos. En R usa `aov(y ~ grupo)` y revisa la tabla ANOVA con `summary()` para el p-valor.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+df <- mtcars
+df$cylf <- factor(df$cyl)
+res <- aov(mpg ~ cylf, data = df)
+print(summary(res))

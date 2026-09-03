@@ -1,0 +1,16 @@
+### TEXTO PARA LA IMAGEN
+Crear o transformar columnas con `mutate()` para enriquecer el dataset.
+
+### TEXTO PARA LA PUBLICACION
+`mutate()` permite crear columnas derivadas (por ejemplo convertir mpg a km/lt o calcular razones). Es ideal para enriquecer tablas sin perder la estructura original.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(dplyr)
+df <- mtcars
+df2 <- df %>% mutate(kmpl = mpg * 0.425144, hp_per_cyl = hp / cyl)
+print(head(df2))

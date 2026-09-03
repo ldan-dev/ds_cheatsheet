@@ -1,0 +1,18 @@
+### TEXTO PARA LA IMAGEN
+N/A - Lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+Usa `geom_bar()` para mostrar conteos o promedios por categoría. Con `stat='identity'` graficas valores ya agregados.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(ggplot2)
+df <- as.data.frame(table(mtcars$cyl))
+colnames(df) <- c('cyl','count')
+p <- ggplot(df, aes(x=factor(cyl), y=count)) + geom_bar(stat='identity', fill='steelblue') + labs(x='Cilindros')
+print(p)
+ggsave('grafico.png', plot = p)

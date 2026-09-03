@@ -1,0 +1,5 @@
+x <- c(1,2,3,4,5)
+y <- c(2,1,4,3,5)
+cov_manual <- sum((x-mean(x))*(y-mean(y)))/(length(x)-1)
+cov_r <- cov(x,y)
+cat(sprintf("Covarianza (manual)=%.4f\ncov()=%.4f\n", cov_manual, cov_r))

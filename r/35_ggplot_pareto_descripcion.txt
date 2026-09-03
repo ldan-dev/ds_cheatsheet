@@ -1,0 +1,19 @@
+### TEXTO PARA LA IMAGEN
+N/A - Lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+Un gráfico Pareto muestra frecuencias ordenadas descendentemente; útil para identificar las categorías más importantes en un conjunto de datos.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(ggplot2)
+df <- as.data.frame(table(mtcars$cyl))
+colnames(df) <- c('cat','freq')
+df <- df[order(-df$freq),]
+p <- ggplot(df, aes(x=reorder(cat, -freq), y=freq)) + geom_bar(stat='identity', fill='skyblue') + labs(x='Categoria')
+print(p)
+ggsave('grafico.png', plot = p)
