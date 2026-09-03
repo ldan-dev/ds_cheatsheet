@@ -1,0 +1,7 @@
+El manejo de errores evita que el programa se detenga cuando entra un valor inesperado.
+
+try, except y finally permiten capturar excepciones y continuar con una respuesta controlada.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

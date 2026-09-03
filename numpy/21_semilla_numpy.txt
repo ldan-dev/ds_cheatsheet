@@ -1,0 +1,7 @@
+La semilla permite repetir exactamente la misma secuencia aleatoria, algo clave para pruebas y experimentos reproducibles.
+
+En NumPy moderno se usa default_rng para tener un control más claro sobre la generación aleatoria.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

@@ -1,0 +1,7 @@
+Los operadores lógicos combinan condiciones para tomar decisiones más complejas en programas de ciencia de datos.
+
+and exige que todo sea verdadero; or basta con una condición verdadera; not invierte el resultado.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

@@ -1,0 +1,7 @@
+Las listas son mutables y permiten modificar sus elementos, mientras que las tuplas son inmutables y más seguras para datos fijos.
+
+Elegir la estructura correcta ayuda a optimizar memoria y evitar cambios accidentales en información crítica.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

@@ -1,0 +1,7 @@
+Las estadísticas básicas ayudan a resumir un conjunto de datos con medidas como media, mediana y desviación estándar.
+
+Estas métricas son la base para interpretar distribuciones y detectar anomalías en un dataset.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

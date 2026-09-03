@@ -1,0 +1,7 @@
+La indexación booleana selecciona valores que cumplen una condición, muy útil para filtrar datos anómalos o relevantes.
+
+Es una técnica imprescindible para limpieza de datos y análisis exploratorio en proyectos reales.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

@@ -1,0 +1,7 @@
+NumPy ofrece distintos generadores de números aleatorios para simular datos, pruebas y muestras de experimentos.
+
+rand genera flotantes, randn sigue una distribución normal y randint produce enteros en un rango definido.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

@@ -1,0 +1,7 @@
+El álgebra lineal con NumPy resuelve sistemas de ecuaciones, calcula determinantes y obtiene inversas con rapidez y precisión.
+
+Estas herramientas son fundamentales para modelado matemático, optimización y análisis multivariable.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

@@ -1,0 +1,7 @@
+Los diccionarios guardan datos en pares clave-valor, ideales para representar información estructurada.
+
+Se usan mucho en ciencia de datos para almacenar columnas, atributos o resultados de procesamiento.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

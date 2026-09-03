@@ -1,0 +1,7 @@
+El ciclo for en Python recorre colecciones o rangos de forma directa y legible, sin necesidad de contar manualmente.
+
+A diferencia del for de C, este enfoque se centra en iterar sobre elementos, por lo que suele ser más claro en análisis de datos.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

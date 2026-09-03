@@ -1,0 +1,7 @@
+El while repite una acción mientras una condición siga siendo verdadera, ideal para contadores y procesos repetitivos.
+
+Es útil cuando no sabes de antemano cuántas iteraciones se van a ejecutar.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

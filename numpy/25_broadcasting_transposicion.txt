@@ -1,0 +1,7 @@
+Broadcasting permite operar arrays con formas compatibles sin copiar datos completos; la transposición reorganiza filas y columnas.
+
+Estas operaciones simplifican cálculos matriciales y ayudan a preparar datos para análisis estadísticos y visualizaciones.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm
