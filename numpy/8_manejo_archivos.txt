@@ -1,0 +1,7 @@
+El manejo de archivos permite guardar información y reutilizarla en análisis y proyectos de ciencia de datos.
+
+with open() es la forma segura de leer o escribir archivos porque cierra automáticamente el recurso al terminar.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

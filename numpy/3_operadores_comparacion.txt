@@ -1,0 +1,7 @@
+Las comparaciones devuelven valores booleanos y sirven para evaluar condiciones en programas y análisis de datos.
+
+Con ==, !=, > y < puedes decidir si un valor cumple una regla antes de ejecutar una acción.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

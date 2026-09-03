@@ -1,0 +1,7 @@
+Las estructuras if, elif y else permiten ejecutar rutas diferentes según una condición.
+
+La indentación es fundamental en Python porque define qué instrucciones pertenecen a cada bloque.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

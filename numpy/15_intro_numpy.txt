@@ -1,0 +1,7 @@
+NumPy trabaja con arreglos multidimensionales más eficientes que las listas de Python para cálculo científico.
+
+np.array, np.zeros, np.ones y np.arange son herramientas clave para construir datos numéricos rápidamente.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

@@ -1,0 +1,7 @@
+Cambiar la forma de un array permite reorganizar datos para que encajen con operaciones matemáticas o visualizaciones.
+
+reshape, ravel y concatenate son herramientas esenciales para adaptar arreglos a diferentes tareas de análisis.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

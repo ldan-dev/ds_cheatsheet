@@ -1,0 +1,7 @@
+La indexación y el slicing permiten acceder a elementos específicos o subarreglos dentro de un array.
+
+Esto es esencial para analizar filas, columnas y porciones de datos sin perder estructura ni rendimiento.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

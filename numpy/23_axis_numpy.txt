@@ -1,0 +1,7 @@
+El parámetro axis define si se suma por columnas o por filas, y eso cambia totalmente el resultado del cálculo.
+
+Entender axis es clave para reducir arrays y preparar datos para machine learning o visualizaciones.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

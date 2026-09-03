@@ -1,0 +1,7 @@
+Las funciones permiten reutilizar bloques de código y hacer programas más ordenados y fáciles de mantener.
+
+Definir parámetros y devolver resultados ayuda a encapsular lógica y evitar repeticiones innecesarias.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

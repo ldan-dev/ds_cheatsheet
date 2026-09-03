@@ -1,0 +1,7 @@
+Los sets almacenan elementos únicos y permiten operaciones de unión, intersección y diferencia entre colecciones.
+
+Son útiles para eliminar duplicados y comparar grupos de datos de forma rápida.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm

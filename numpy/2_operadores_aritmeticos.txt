@@ -1,0 +1,7 @@
+Los operadores aritméticos permiten sumar, restar, multiplicar, dividir y elevar números de forma directa en Python.
+
+La prioridad de las operaciones ayuda a calcular expresiones complejas sin errores de lógica.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#python #numpy #datascience #programming #code #UG #DICIS #acm
