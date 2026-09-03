@@ -1,7 +1,7 @@
 ### TEXTO PARA LA IMAGEN
 N/A - No lleva gráfico
 
-### TEXTO PARA LA PUBLICACION
+### TEXTO PARA LA PUBLICACION 
 Variables en R: continuas (numéricas), enteras, categóricas (factores), caracteres y lógicas. Cada tipo tiene funciones y usos distintos en análisis de datos.
 
 Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
