@@ -1,0 +1,17 @@
+### TEXTO PARA LA IMAGEN
+Filosofía tidyverse: código legible, operaciones encadenadas y tablas "tidy".
+
+### TEXTO PARA LA PUBLICACION
+Tidyverse propone un flujo coherente para manipular datos: tablas "tidy", funciones verbosas y pipes `%>%`. Carga `dplyr` y `readr` para transformar y explorar datos de forma legible.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(dplyr)
+library(readr)
+df <- mtcars
+glimpse(df)
+df %>% select(mpg, cyl, hp) %>% head()

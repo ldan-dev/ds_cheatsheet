@@ -1,0 +1,19 @@
+### TEXTO PARA LA IMAGEN
+N/A - No lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+Regresión lineal simple: $$y=\beta_0+\beta_1 x+\epsilon$$. Ajusta con `lm()` y examina coeficientes para interpretar efecto de la variable predictora.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+df <- mtcars
+model <- lm(mpg ~ hp, data = df)
+summary(model)
+coeffs <- coef(model)
+cat(sprintf("Intercept=%.4f\nSlope(hp)=%.4f\n", coeffs[1], coeffs[2]))
+pred <- predict(model, newdata = data.frame(hp = c(100,150)))
+print(pred)

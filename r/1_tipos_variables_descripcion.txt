@@ -1,0 +1,20 @@
+### TEXTO PARA LA IMAGEN
+N/A - No lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+Variables en R: continuas (numéricas), enteras, categóricas (factores), caracteres y lógicas. Cada tipo tiene funciones y usos distintos en análisis de datos.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+num <- c(1.5, 2.3, 3.7)
+int <- as.integer(c(1, 2, 3))
+cat <- factor(c("A", "B", "A"))
+chr <- c("x", "y", "z")
+lgl <- c(TRUE, FALSE, TRUE)
+df <- data.frame(num, int, cat, chr, lgl)
+print(sapply(df, class))
+str(df)

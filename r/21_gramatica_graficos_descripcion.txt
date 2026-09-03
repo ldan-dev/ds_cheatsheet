@@ -1,0 +1,17 @@
+### TEXTO PARA LA IMAGEN
+N/A - Lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+La gramática de los gráficos construye visualizaciones por capas: `ggplot()` define datos y estéticas, luego añades `geom_*()` para capas y `labs()` para etiquetas.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(ggplot2)
+df <- mtcars
+p <- ggplot(df, aes(x=hp, y=mpg)) + geom_point() + geom_smooth(method='lm') + labs(title='Puntos y regresión')
+print(p)
+ggsave('grafico.png', plot = p)

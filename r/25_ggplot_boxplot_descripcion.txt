@@ -1,0 +1,16 @@
+### TEXTO PARA LA IMAGEN
+N/A - Lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+`geom_boxplot()` muestra la mediana, cuartiles y posibles outliers por categoría. Es útil para comparar distribuciones entre grupos.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(ggplot2)
+p <- ggplot(mtcars, aes(x=factor(cyl), y=mpg)) + geom_boxplot(fill='orange') + labs(x='Cilindros')
+print(p)
+ggsave('grafico.png', plot = p)

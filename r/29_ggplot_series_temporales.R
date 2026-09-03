@@ -1,0 +1,5 @@
+library(ggplot2)
+data(economics, package='ggplot2')
+p <- ggplot(economics, aes(x=date, y=unemploy)) + geom_line(color='navy') + labs(y='Unemployed')
+print(p)
+ggsave('grafico.png', plot = p)

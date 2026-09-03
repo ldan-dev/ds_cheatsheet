@@ -1,0 +1,17 @@
+### TEXTO PARA LA IMAGEN
+Prueba t: compara medias entre dos grupos independientes.
+
+### TEXTO PARA LA PUBLICACION
+La prueba t evalúa si las medias de dos muestras difieren significativamente. En R usa `t.test(x,y)` y revisa el p-valor para tomar decisiones sobre la hipótesis nula.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+df <- mtcars
+g1 <- df$mpg[df$cyl==4]
+g2 <- df$mpg[df$cyl==6]
+res <- t.test(g1, g2)
+print(res)

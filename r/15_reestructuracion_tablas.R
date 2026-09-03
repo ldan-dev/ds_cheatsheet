@@ -1,0 +1,5 @@
+library(tidyr)
+df <- tibble(id=1:3, x1=c(10,20,30), x2=c(5,6,7))
+long <- pivot_longer(df, cols = starts_with("x"), names_to = "var", values_to = "val")
+wide <- pivot_wider(long, names_from = "var", values_from = "val")
+print(long); print(wide)

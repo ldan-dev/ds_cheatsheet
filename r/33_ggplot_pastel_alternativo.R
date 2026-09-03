@@ -1,0 +1,6 @@
+library(ggplot2)
+df <- as.data.frame(table(iris$Species))
+colnames(df) <- c('sp','count')
+p <- ggplot(df, aes(x=1, y=count, fill=sp)) + geom_bar(stat='identity') + coord_polar(theta='y')
+print(p)
+ggsave('grafico.png', plot = p)

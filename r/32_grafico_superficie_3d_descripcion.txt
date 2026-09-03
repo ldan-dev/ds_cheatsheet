@@ -1,0 +1,18 @@
+### TEXTO PARA LA IMAGEN
+N/A - Lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+Para superficies 3D usa `plotly` o `rgl`; aquí mostramos una aproximación con `geom_tile()` como mapa intenso para representar la superficie.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(ggplot2)
+M <- as.data.frame(as.table(volcano))
+colnames(M) <- c('x','y','z')
+p <- ggplot(M, aes(x=as.numeric(x), y=as.numeric(y), fill=z)) + geom_tile() + labs(x='X', y='Y')
+print(p)
+ggsave('grafico.png', plot = p)

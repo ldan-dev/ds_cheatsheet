@@ -1,0 +1,18 @@
+### TEXTO PARA LA IMAGEN
+N/A - Lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+Un mapa de calor (`geom_tile()`) visualiza la intensidad de valores en una matriz (por ejemplo una matriz de correlación), usando una escala de color.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(ggplot2)
+M <- cor(mtcars)
+df <- as.data.frame(as.table(M))
+p <- ggplot(df, aes(Var1, Var2, fill=Freq)) + geom_tile() + scale_fill_gradient2() + labs(x='', y='')
+print(p)
+ggsave('grafico.png', plot = p)

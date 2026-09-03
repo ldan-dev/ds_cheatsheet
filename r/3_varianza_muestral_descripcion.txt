@@ -1,0 +1,18 @@
+### TEXTO PARA LA IMAGEN
+Varianza muestral: dispersión promedio alrededor de la media.
+
+### TEXTO PARA LA PUBLICACION
+La varianza muestral mide la dispersión: $$s^2=\frac{\sum_{i=1}^n (x_i-\bar{x})^2}{n-1}$$. En R usa `var()`; el ejemplo muestra cálculo manual y con `var()`.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+x <- c(2,4,4,6,9)
+n <- length(x)
+xbar <- mean(x)
+s2_manual <- sum((x - xbar)^2)/(n-1)
+s2_r <- var(x)
+cat(sprintf("Varianza muestral (manual)=%.4f\nvar()=%.4f\n", s2_manual, s2_r))

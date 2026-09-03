@@ -1,0 +1,17 @@
+### TEXTO PARA LA IMAGEN
+Leer CSV eficientemente con `readr::read_csv()` en lugar de `read.csv()`.
+
+### TEXTO PARA LA PUBLICACION
+`read_csv()` es más rápido y devuelve tibbles con mejor parseo. Usa `glimpse()` para inspeccionar estructura y `readr` para archivos grandes. En el ejemplo escribimos y leemos `mtcars`.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(readr)
+write_csv(mtcars, "mtcars_sample.csv")
+df <- read_csv("mtcars_sample.csv")
+glimpse(df)
+print(head(df))

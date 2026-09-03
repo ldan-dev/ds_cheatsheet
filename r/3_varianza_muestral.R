@@ -1,0 +1,6 @@
+x <- c(2,4,4,6,9)
+n <- length(x)
+xbar <- mean(x)
+s2_manual <- sum((x - xbar)^2)/(n-1)
+s2_r <- var(x)
+cat(sprintf("Varianza muestral (manual)=%.4f\nvar()=%.4f\n", s2_manual, s2_r))

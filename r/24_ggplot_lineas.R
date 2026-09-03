@@ -1,0 +1,5 @@
+library(ggplot2)
+df <- as.data.frame(pressure)
+p <- ggplot(df, aes(x=temperature, y=pressure)) + geom_line(color='darkred') + labs(x='Temp', y='Pressure')
+print(p)
+ggsave('grafico.png', plot = p)

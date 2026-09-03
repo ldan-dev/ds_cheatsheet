@@ -1,0 +1,6 @@
+x <- c(1,2,3,4,5)
+y <- c(2,3,4,5,6)
+cov_xy <- cov(x,y)
+corr <- cov_xy/(sd(x)*sd(y))
+corr_r <- cor(x,y)
+cat(sprintf("r (manual)=%.4f\ncor()=%.4f\n", corr, corr_r))

@@ -1,0 +1,17 @@
+### TEXTO PARA LA IMAGEN
+Covarianza: medida direccional de asociación entre dos variables.
+
+### TEXTO PARA LA PUBLICACION
+La covarianza indica la dirección conjunta de dos variables: $$\mathrm{Cov}(X,Y)=\frac{\sum (x_i-\bar{x})(y_i-\bar{y})}{n-1}$$. En R usa `cov()`.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+x <- c(1,2,3,4,5)
+y <- c(2,1,4,3,5)
+cov_manual <- sum((x-mean(x))*(y-mean(y)))/(length(x)-1)
+cov_r <- cov(x,y)
+cat(sprintf("Covarianza (manual)=%.4f\ncov()=%.4f\n", cov_manual, cov_r))

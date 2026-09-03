@@ -1,0 +1,18 @@
+### TEXTO PARA LA IMAGEN
+Media, mediana y moda: resumen rápido de tendencia central.
+
+### TEXTO PARA LA PUBLICACION
+La media es el promedio aritmético $\bar{x}=\frac{\sum x_i}{n}$. La mediana es el valor central y la moda es la observación más frecuente. Usa `mean()`, `median()` y `table()` en R.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+x <- c(2, 3, 5, 7, 11)
+media <- mean(x)
+mediana <- median(x)
+moda <- as.numeric(names(sort(table(x), decreasing=TRUE)[1]))
+cat(sprintf("Media=%.2f\nMediana=%s\nModa=%s\n", media, mediana, moda))
+print(c(media=media, mediana=mediana, moda=moda))

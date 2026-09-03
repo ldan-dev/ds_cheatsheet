@@ -1,0 +1,8 @@
+num <- c(1.5, 2.3, 3.7)
+int <- as.integer(c(1, 2, 3))
+cat <- factor(c("A", "B", "A"))
+chr <- c("x", "y", "z")
+lgl <- c(TRUE, FALSE, TRUE)
+df <- data.frame(num, int, cat, chr, lgl)
+print(sapply(df, class))
+str(df)

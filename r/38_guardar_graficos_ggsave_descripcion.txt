@@ -1,0 +1,16 @@
+### TEXTO PARA LA IMAGEN
+N/A - Lleva gráfico
+
+### TEXTO PARA LA PUBLICACION
+Usa `ggsave()` para exportar gráficos en formatos y tamaños personalizados; especifica `width`, `height` y `dpi` para calidad de imagen.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(ggplot2)
+p <- ggplot(mtcars, aes(x=hp, y=mpg)) + geom_point()
+ggsave('grafico.png', plot = p, width=6, height=4, dpi=300)
+cat('Guardado: grafico.png')

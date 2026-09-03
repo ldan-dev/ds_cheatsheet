@@ -1,0 +1,6 @@
+library(ggplot2)
+df <- as.data.frame(table(mtcars$cyl))
+colnames(df) <- c('cyl','count')
+p <- ggplot(df, aes(x=1, y=count, fill=factor(cyl))) + geom_bar(stat='identity') + coord_polar(theta='y') + labs(fill='Cilindros')
+print(p)
+ggsave('grafico.png', plot = p)

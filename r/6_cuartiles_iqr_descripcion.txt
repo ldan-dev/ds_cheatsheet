@@ -1,0 +1,16 @@
+### TEXTO PARA LA IMAGEN
+Cuartiles y IQR: resumen de ubicación y dispersión robusta.
+
+### TEXTO PARA LA PUBLICACION
+Los cuartiles dividen la muestra en cuatro partes; el rango intercuartil se calcula como $$IQR=Q_3-Q_1$$ y es una medida robusta de dispersión. En R usa `quantile()` e `IQR()`.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+x <- c(7,2,5,10,3,8,9)
+q <- quantile(x, probs=c(0.25,0.5,0.75))
+IQR_val <- IQR(x)
+cat(sprintf("Q1=%.2f\nMediana=%.2f\nQ3=%.2f\nIQR=%.2f\n", q[1], q[2], q[3], IQR_val))

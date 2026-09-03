@@ -1,0 +1,16 @@
+### TEXTO PARA LA IMAGEN
+Desviación estándar: raíz de la varianza, misma unidad que los datos.
+
+### TEXTO PARA LA PUBLICACION
+La desviación estándar es $s=\sqrt{s^2}$ y mide la dispersión en las mismas unidades que las observaciones. En R usa `sd()` o `sqrt(var())`.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+x <- c(2,4,4,6,9)
+sd_manual <- sqrt(var(x))
+sd_r <- sd(x)
+cat(sprintf("Desviación estándar (manual)=%.4f\nsd()=%.4f\n", sd_manual, sd_r))

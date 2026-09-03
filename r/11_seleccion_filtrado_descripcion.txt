@@ -1,0 +1,16 @@
+### TEXTO PARA LA IMAGEN
+Selecciona columnas con `select()` y filtra filas con `filter()`.
+
+### TEXTO PARA LA PUBLICACION
+Usa `select()` para elegir columnas y `filter()` para extraer filas según condiciones lógicas. Las operaciones encadenadas con `%>%` mejoran legibilidad y reproducibilidad del análisis.
+
+Si quieres probar este código y aprender más detalles, date una vuelta por nuestro repositorio: https://github.com/ldan-dev/ds_cheatsheet
+
+#rstats #tidyverse #ggplot2 #datascience #statistics #programming #UG #DICIS #acm
+
+### CODIGO
+R
+library(dplyr)
+df <- mtcars
+res <- df %>% select(mpg, cyl, hp) %>% filter(mpg > 20, cyl %in% c(4,6))
+print(head(res))

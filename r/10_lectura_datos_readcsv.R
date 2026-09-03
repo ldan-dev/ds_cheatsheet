@@ -1,0 +1,5 @@
+library(readr)
+write_csv(mtcars, "mtcars_sample.csv")
+df <- read_csv("mtcars_sample.csv")
+glimpse(df)
+print(head(df))

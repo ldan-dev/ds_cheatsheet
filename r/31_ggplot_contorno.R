@@ -1,0 +1,6 @@
+library(ggplot2)
+vol <- as.data.frame(as.table(volcano))
+colnames(vol) <- c('x','y','z')
+p <- ggplot(vol, aes(x=as.numeric(x), y=as.numeric(y), z=z)) + geom_contour(aes(z=z)) + labs(x='X', y='Y')
+print(p)
+ggsave('grafico.png', plot = p)
